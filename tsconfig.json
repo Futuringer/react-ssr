@@ -11,5 +11,8 @@
     "lib": ["dom", "esnext"]
   },
   "exclude": ["./dist"],
-  "include": ["./src"]
+  "include": [
+    "./src",
+    "./api"
+  ]
 }

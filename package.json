@@ -7,7 +7,7 @@
     "build:server": "npx parcel build -t node -d dist/server -o index.js src/server.tsx",
     "build:client": "npx parcel build -d dist/client src/index.html",
     "build": "yarn build:server && yarn build:client",
-    "vercel build": "yarn build:server && yarn build:client"
+    "vercel-build": "echo hello && yarn build:server && yarn build:client"
   },
   "dependencies": {
     "cross-fetch": "^3.0.4",

@@ -11,7 +11,7 @@ const port = process.env.PORT || 8080
 const clientPath = resolve(__dirname, '..', 'client')
 const clientTemplatePath = resolve(clientPath, 'index.html')
 
-const server = express()
+export const server = express()
 
 for (const key in users) {
   server.get(`/${key}`, async(req, res) => {
